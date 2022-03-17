@@ -10,17 +10,8 @@
 
 </head>
 <body>
-    <div class="container">
-        <!--header-->
-        <div class ="row"><h1 class="display-1">Hardware Store</h1>
-        </div>
-        <!--content-->
-        <div class ="row"></div>
-        <!--footer-->
-        <div class ="row"></div>
-    </div>
-    <!-- <div class="container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo labore suscipit omnis quia mollitia, repellat reprehenderit non ea eius provident optio dicta blanditiis deleniti pariatur est inventore maiores dolor!</p>
-    </div> -->
+    {% extends 'layout.html' %}
+    {%block header%}Hardware Store{%endblock%}
+    {%block maincontent%}This is the main content of index.html Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus voluptatem aperiam impedit rem consequuntur temporibus aliquam aliquid illum! Quis accusantium tempora doloribus aspernatur ipsa fuga voluptatibus vel unde minima nostrum!{%endblock%}
 </body>
 </html>
